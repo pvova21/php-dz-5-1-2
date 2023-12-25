@@ -7,10 +7,10 @@ class Student {
 
 // Метод
     public function displayInfo() {
-        echo "�������: {$this->name}, �������: {$this->age} ���";
+        echo "Студент: {$this->name}, Возраст: {$this->age} лет";
     }
     public function study() {
-        echo "{$this->name} ���������� ����������������.";
+        echo "{$this->name} занимается учебой.";
     }
 }
 
@@ -21,10 +21,10 @@ class Car {
 
 // Метод
     public function displayInfo() {
-        echo "������: {$this->brand} {$this->model}";
+        echo "Машина: {$this->brand} {$this->model}";
     }
     public function startEngine() {
-        echo "{$this->brand} {$this->model} �������� ���������.";
+        echo "{$this->brand} {$this->model} запустил двигатель.";
     }
 }
 
@@ -35,17 +35,17 @@ class Television {
 
 // Метод
     public function displayInfo() {
-        echo "���������: {$this->brand}, ������: {$this->size} ������";
+        echo "Телевизор: {$this->brand}, Размер: {$this->size} дюймов";
     }
     public function changeChannel($channel) {
-        echo "{$this->brand} ���������� ����� �� {$channel}.";
+        echo "{$this->brand} переключил канал на {$channel}.";
     }
 }
 
 
 // Создаем объект студента
 $student = new Student();
-$student->name = "��������";
+$student->name = "Владимир";
 $student->age = 42;
 $student->displayInfo();
 echo "<br>";
