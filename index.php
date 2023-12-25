@@ -1,57 +1,57 @@
 <?php
 
-// Класс для студента
+// РљР»Р°СЃСЃ РґР»СЏ СЃС‚СѓРґРµРЅС‚Р°
 class Student {
     public string $name;
     public string $age;
 
-    // Метод
+// РњРµС‚РѕРґ
     public function displayInfo() {
-        echo "Студент: {$this->name}, Возраст: {$this->age} лет";
+        echo "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: {$this->name}, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: {$this->age} пїЅпїЅпїЅ";
     }
     public function study() {
-        echo "{$this->name} занимается програмированием.";
+        echo "{$this->name} пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.";
     }
 }
 
-// Класс для машины
+// РљР»Р°СЃСЃ РґР»СЏ РјР°С€РёРЅС‹
 class Car {
     public string $brand;
     public string $model;
 
-    // Метод 
+// РњРµС‚РѕРґ
     public function displayInfo() {
-        echo "Машина: {$this->brand} {$this->model}";
+        echo "пїЅпїЅпїЅпїЅпїЅпїЅ: {$this->brand} {$this->model}";
     }
     public function startEngine() {
-        echo "{$this->brand} {$this->model} запустил двигатель.";
+        echo "{$this->brand} {$this->model} пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.";
     }
 }
 
-// Класс для телевизора
+// РљР»Р°СЃСЃ РґР»СЏ С‚РµР»РµРІРёР·РѕСЂР°
 class Television {
     public string $brand;
     public string $size;
 
-    // Метод 
+// РњРµС‚РѕРґ
     public function displayInfo() {
-        echo "Телевизор: {$this->brand}, Размер: {$this->size} дюймов";
+        echo "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: {$this->brand}, пїЅпїЅпїЅпїЅпїЅпїЅ: {$this->size} пїЅпїЅпїЅпїЅпїЅпїЅ";
     }
     public function changeChannel($channel) {
-        echo "{$this->brand} переключил канал на {$channel}.";
+        echo "{$this->brand} пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ {$channel}.";
     }
 }
 
 
-// Создаем объект студента
+// РЎРѕР·РґР°РµРј РѕР±СЉРµРєС‚ СЃС‚СѓРґРµРЅС‚Р°
 $student = new Student();
-$student->name = "Владимир";
+$student->name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
 $student->age = 42;
 $student->displayInfo();
 echo "<br>";
 $student->study();
 
-// Создаем объект машины
+// РЎРѕР·РґР°РµРј РѕР±СЉРµРєС‚ РјР°С€РёРЅС‹
 $car = new Car();
 $car->brand = "Toyota";
 $car->model = "Camry";
@@ -60,7 +60,7 @@ $car->displayInfo();
 echo "<br>";
 $car->startEngine();
 
-// Создаем объект телевизора
+// РЎРѕР·РґР°РµРј РѕР±СЉРµРєС‚ С‚РµР»РµРІРёР·РѕСЂР°
 $tv = new Television();
 $tv->brand = "Samsung";
 $tv->size = 55;
